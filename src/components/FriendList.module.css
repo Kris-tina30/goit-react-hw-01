@@ -1,0 +1,26 @@
+.friendList {
+  display: flex;
+  margin-top: 30px;
+  gap: 15px;
+  font-weight: 500;
+  line-height: 2;
+  font-size: 1.5em;
+}
+.friendListCard {
+  width: calc(100% / 5);
+  padding-top: 15px;
+  border: 1px solid rgb(88, 83, 83);
+  border-radius: 4%;
+  background-color: rgba(239, 239, 243, 0.8);
+}
+
+.friendListText {
+  color: black;
+}
+.ofline {
+  color: red;
+}
+
+.online {
+  color: green;
+}
